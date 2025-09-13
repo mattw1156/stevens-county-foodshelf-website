@@ -1,0 +1,81 @@
+<mat-toolbar color="primary" role="navigation">
+  <span class="app-title">{{title}}</span>
+
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/" data-test="account_box">
+    <mat-label >Home</mat-label>
+    <mat-icon class="account_box" aria-label="Home page">home</mat-icon>
+  </button>
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/donor" data-test="account_box">
+    <mat-label >Donors / Donantes</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">favorite</mat-icon>
+  </button>
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/form/client" data-test="account_box">
+    <mat-label >Fill Out A Grocery Form</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">shopping_basket</mat-icon>
+  </button>
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/forms/volunteer" data-test="account_box">
+    <mat-label >View Forms</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">assignment</mat-icon>
+  </button>
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/client" data-test="account_box">
+    <mat-label >Clients / Clientes</mat-label>
+    <mat-icon class="account_box" aria-label="Client page">shopping_basket</mat-icon>
+  </button>
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/volunteer" data-test="account_box">
+    <mat-label >Volunteers / Voluntarios</mat-label>
+    <mat-icon class="account_box" aria-label="Volunteer Page">people</mat-icon>
+  </button>
+</mat-toolbar>
+<div class="main-content mat-typography">
+  <router-outlet></router-outlet>
+</div>
+<!--
+<mat-toolbar color="primary" role="navigation">
+  <span class="app-title">{{title}}</span>
+  <ul class="flex-container nowrap">
+    <li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/" data-test="account_box">
+    <mat-label >Home</mat-label>
+    <mat-icon class="account_box" aria-label="Home page">home</mat-icon>
+  </button>
+</li>
+
+<li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/donor" data-test="account_box">
+    <mat-label >Donors / Donantes</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">favorite</mat-icon>
+  </button>
+</li>
+
+  <li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/form/client" data-test="account_box">
+    <mat-label >Fill Out A Grocery Form</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">shopping_basket</mat-icon>
+  </button>
+</li>
+
+  <li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/forms/volunteer" data-test="account_box">
+    <mat-label >View Forms</mat-label>
+    <mat-icon class="account_box" aria-label="Donor page">assignment</mat-icon>
+  </button>
+</li>
+
+  <li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/client" data-test="account_box">
+    <mat-label >Clients / Clientes</mat-label>
+    <mat-icon class="account_box" aria-label="Client page">shopping_basket</mat-icon>
+  </button>
+</li>
+
+  <li class="flex-item">
+  <button mat-button class="clients-button"  matTooltipPosition="right" routerLink="/requests/volunteer" data-test="account_box">
+    <mat-label >Volunteers / Voluntarios</mat-label>
+    <mat-icon class="account_box" aria-label="Volunteer Page">people</mat-icon>
+  </button>
+</li>
+  </ul>
+</mat-toolbar>
+<div class="main-content mat-typography">
+  <router-outlet></router-outlet>
+</div> -->
